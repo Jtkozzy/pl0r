@@ -7,4 +7,4 @@ PL/0 implementation in Rust
 - Parser does not try to recover/resync but quits on first error a'la old Turbo Pascal (Pascal version used heavily Pascal's sets and I couldn't figure out a simple way to do this in Rust. Well, PL/0 programs tend to be short so this version should be adequate)
 - Parser does not use nested procedures like Pascal version, so needs some added function parameters for nesting level and variable table index etc
 - Interpreter is a direct conversion from Pascal version
-- This shows how bad I am as a Rust programmer :) .. clone(), clone() everywhere.
+- This shows how bad I am as a Rust programmer :) .. clone(), clone() everywhere. But it works !
