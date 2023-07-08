@@ -1,0 +1,34 @@
+var less, greater, leq, geq, eq, neq;
+
+begin
+   less := 0;
+   if 3 < 4 then 
+      less := 1;  
+   !less;
+
+   greater := 0;
+   if 4 > 3 then 
+      greater := 1;  
+   !greater;
+
+   leq := 0;
+   if 4 [ 4 then 
+      leq := 1;  
+   !leq;
+
+   geq := 0;
+   if 4 ] 4 then 
+      geq := 1;  
+   !geq;
+
+   eq := 0;
+   if 4 = 4 then 
+      eq := 1;  
+   !eq;
+
+   neq := 0;
+   if 3 # 4 then 
+      neq := 1;  
+   !neq;
+end.
+
